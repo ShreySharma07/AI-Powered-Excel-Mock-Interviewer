@@ -1,0 +1,22 @@
+[
+  {
+    "question_id": "EX101",
+    "topic": "Formulas",
+    "difficulty": "Beginner",
+    "question_text": "Given a first name in cell A2 and a last name in cell B2, what Excel formula would you use to combine them into a full name in cell C2, separated by a space?",
+    "answer_type": "formula",
+    "evaluation_criteria": "The formula should correctly concatenate the strings from A2 and B2 with a space in between.",
+    "test_case": {
+      "data": { "A2": "John", "B2": "Doe" },
+      "expected_output": "John Doe"
+    }
+  },
+  {
+    "question_id": "EX201",
+    "topic": "Pivot Tables",
+    "difficulty": "Intermediate",
+    "question_text": "What is a Pivot Table in Excel and what is its primary purpose?",
+    "answer_type": "textual_explanation",
+    "evaluation_criteria": "A good answer should mention that Pivot Tables are used for summarizing, grouping, counting, and analyzing large datasets to see comparisons and patterns."
+  }
+]
